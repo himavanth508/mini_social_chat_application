@@ -1,0 +1,63 @@
+.Home-container {
+    text-align: left;
+}
+
+.Home-upload {
+    border: 1px solid black;
+}
+
+.Home-textarea {
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+
+.Home-post-bottom {
+    display: flex;
+    justify-content:space-between;
+    margin-top:0px;
+    align-items: flex-start;
+    /* background-color: silver; */
+}
+
+.Home-comments {
+    margin: 0;
+}
+
+.Home-likes {
+    margin: 0;
+    font-weight: bold ;
+}
+
+.Home-like-green{
+    background-color: lightgreen;
+    border:none;
+    font-weight: bold;
+}
+
+.Home-like-silver{
+    border:none
+}
+
+.Home-post-header{
+    /* background-color: silver; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home-post-text{
+margin-left: 1px;
+font-size: large;
+display:flex;
+}
+
+.Home-post-delete{
+    margin-right: 1px;
+}
+.Home-post-box{
+    margin-bottom:20px
+}

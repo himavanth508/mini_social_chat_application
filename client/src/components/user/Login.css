@@ -1,0 +1,123 @@
+* {
+    margin: auto;
+}
+
+.container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* column-gap: 40px; */
+    /* padding:150px; */
+    margin: auto;
+    background-image: url('../../bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* align-items:  center; */
+    /* justify-content: center; */
+
+}
+
+.leftBox {
+    width: 400px;
+    /* background-color: whitesmoke; */
+    padding: 40px;
+    font-size: large;
+    text-align: left;
+    /* border: 1px solid silver; */
+    color: black;
+    height: 400px;
+    /* margin-left: 0; */
+
+
+
+}
+
+.rightBox {
+    width: 400px;
+    padding: 40px;
+    height: 380px;
+    /* background-color: whitesmoke; */
+    background-color: whitesmoke;
+    /* margin-bottom: 10px; */
+    border: 1px solid silver;
+    box-shadow: 1px 1px 1px navy;
+    border-radius: 10px;
+
+}
+
+.Login-txt{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: skyblue;
+    border: none;
+    font-size: 20px;
+    line-height: 50px;
+    outline-color: navy;
+    /* outline: none; */
+}
+
+.Login-btn{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: navy;
+    border: none;
+    font-size: 20px;
+    line-height: 50px;
+    outline-color: navy;
+    color:white
+    /* outline: none; */
+}
+
+.Login-register-btn{
+    width: 50%;
+    box-sizing: border-box;
+    background-color: teal;
+    border: none;
+    font-size: 20px;
+    line-height: 50px;
+    outline-color: teal;
+    color:white;
+    /* outline: none; */
+}
+
+
+.txtBox:focus-within {
+    border: 2px solid silver;
+}
+
+.pwdEye {
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pwdEye:focus-within {
+    border: 2px solid navy;
+
+}
+
+input[type=password]:focus {
+    outline: none;
+}
+
+.title {
+    font-size: 100px;
+    text-align: left;
+    color: maroon;
+    font-weight: bold;
+}
+
+.tagLine {
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.Login-msg{
+    font-size: 20px;
+    font-weight: bold;
+    color:red;
+    padding:5px
+}

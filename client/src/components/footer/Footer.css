@@ -1,0 +1,15 @@
+.Footer-container{
+    display: flex;
+    background-color: navy;
+    justify-content: space-around;;
+    padding: 30px;
+    text-align: left;
+    color:silver
+    /* width: 200px; */
+}
+
+.Footer-bottom{
+    padding: 30px;
+    background-color: navy;
+    color:silver;
+}
